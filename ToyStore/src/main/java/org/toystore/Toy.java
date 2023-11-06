@@ -1,2 +1,14 @@
-package org.toystore;public class Toy {
+package org.toystore;
+
+public class Toy {
+    private String id;
+    private String name;
+    private int frequency;
+
+    public Toy(String id, String name, int frequency) {
+        this.id = id;
+        this.name = name;
+        this.frequency = frequency;
+    }
+    /* Add here getters and setters for fields */
 }
