@@ -1,6 +1,6 @@
 package org.toystore;
 
-public class Toy {
+class Toy {
     private int id;
     private String name;
     private int quantity;
